@@ -12,13 +12,13 @@ export default new Router({
       name: 'Home',
       component: Home
     }, {
-      path: '/hello',
-      name: 'HelloWorld',
-      component: HelloWorld
-    },{
       path:'/me',
       name: 'Me', 
       component: Me
-    }
+    },{
+      path: '/hello',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
   ]
 })
