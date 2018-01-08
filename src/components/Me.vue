@@ -13,6 +13,11 @@
         <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/applewatch.png">
       </cell>
     </group>
+    <group>
+      <cell title="Wallet" is-link class="wallet">
+        <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/wechat_wallet.png">
+      </cell>
+    </group>
   </div>
 </template>
 
@@ -30,10 +35,14 @@ export default {
 <style>
 .me {
   margin-top: 60px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .user-header {
   height: 50px;
   border-radius: 5px;
   margin:5px;
 }
+/* .wallet{
+  margin-top: 10px 0;
+} */
 </style>
