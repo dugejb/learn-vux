@@ -4,7 +4,7 @@
       <swiper :list="swiperlist" loop></swiper>
     </div>
     <group title="cell demo">
-      <cell title="VUX" value="cool" is-link link="/hello"></cell>
+      <cell title="VUX" value="cool" is-link></cell>
       <x-button type="primary" @click.native="showPosition('')">hi</x-button>
     </group>
     <toast v-model="showPositionValue" type="text" :time="800" is-show-mask :text="msg" :position="position"></toast>
