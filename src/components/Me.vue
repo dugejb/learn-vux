@@ -14,7 +14,7 @@
       </cell>
     </group>
     <group>
-      <cell title="Wallet" is-link class="wallet">
+      <cell title="Wallet" is-link link="/wallet" class="wallet">
         <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/wechat_wallet.png">
       </cell>
     </group>
