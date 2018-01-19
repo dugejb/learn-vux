@@ -18,6 +18,19 @@
         <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/wechat_wallet.png">
       </cell>
     </group>
+     <group>
+      <cell title="Favorites" is-link class="favorites">
+        <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/favorites.png">
+      </cell>
+      <cell title="MyPosts" is-link class="my-posts">
+        <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/my_posts.png">
+      </cell>
+    </group>
+     <group>
+      <cell title="Settings" is-link class="settings">
+        <img slot="icon" width="20" style="display:block;margin-right:5px;" src="../../assets/setting.png">
+      </cell>
+    </group>
   </div>
 </template>
 
